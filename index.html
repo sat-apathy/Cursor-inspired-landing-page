@@ -9,11 +9,11 @@
 
 <body>
 
-  <!-- ================= HEADER / NAV ================= -->
+  <!-- ================= HEADER ================= -->
   <header class="site-header">
     <nav class="nav container">
       <div class="nav-left">
-        <img src="images/logo1.svg" alt="Cursor logo" class="logo" />
+        <img src="images/logo.png" alt="Cursor logo" class="logo" />
       </div>
 
       <ul class="nav-links">
@@ -24,7 +24,7 @@
       </ul>
 
       <div class="nav-right">
-        <a href="#" class="nav-cta">Download</a>
+        <a href="#" class="nav-cta">Download for MacOS</a>
       </div>
     </nav>
   </header>
@@ -32,15 +32,30 @@
   <!-- ================= MAIN ================= -->
   <main>
 
-    <!-- ================= HERO ================= -->
+    <!-- ================= HERO (WITH TRUST) ================= -->
     <section class="hero container">
       <div class="hero-content">
         <h1>Build faster with AI that understands your code</h1>
-        <p>
-          Cursor is an AI-first code editor that helps you write, understand,
-          and refactor large codebases with confidence.
+
+        <p class="hero-subtext">
+          Cursor is an AI-first code editor built to help developers
+          navigate, edit, and understand large codebases.
         </p>
-        <a href="#" class="primary-cta">Get Started</a>
+
+        <div class="hero-actions">
+          <a href="#" class="primary-cta">Download</a>
+          <a href="#" class="secondary-cta">View Docs</a>
+        </div>
+
+        <div class="hero-trusted">
+          <span>Trusted by engineers at</span>
+          <div class="trusted-logos">
+            <img src="images/logo1.png" alt="Company logo" />
+            <img src="images/logo2.png" alt="Company logo" />
+            <img src="images/logo3.png" alt="Company logo" />
+            <img src="images/logo4.svg" alt="Company logo" />
+          </div>
+        </div>
       </div>
 
       <div class="hero-image">
@@ -48,41 +63,30 @@
       </div>
     </section>
 
-    <!-- ================= TRUSTED BY ================= -->
-    <section class="trusted-by container">
-      <p class="trusted-text">Trusted by engineers at</p>
+    <!-- ================= PRIMARY FEATURE ================= -->
+    <section class="feature feature-primary container">
+      <div class="feature-text">
+        <h2>Understand your entire codebase</h2>
+        <p>
+          Ask questions about your repository and get precise,
+          context-aware answers across files and dependencies.
+        </p>
+      </div>
 
-      <div class="trusted-logos">
-        <img src="images/logo1.svg" alt="Company logo" />
-        <img src="images/logo2.svg" alt="Company logo" />
-        <img src="images/logo3.svg" alt="Company logo" />
-        <img src="images/logo4.svg" alt="Company logo" />
+      <div class="feature-image">
+        <img src="images/feature1.png" alt="Codebase understanding feature" />
       </div>
     </section>
 
-    <!-- ================= FEATURES ================= -->
-    <section class="features container">
+    <!-- ================= SECONDARY FEATURES ================= -->
+    <section class="features-secondary container">
 
       <section class="feature">
         <div class="feature-text">
-          <h2>Understand large codebases instantly</h2>
-          <p>
-            Ask questions about your entire repository and get accurate,
-            context-aware answers.
-          </p>
-        </div>
-
-        <div class="feature-image">
-          <img src="images/feature1.png" alt="Code understanding feature" />
-        </div>
-      </section>
-
-      <section class="feature reverse">
-        <div class="feature-text">
           <h2>Edit and refactor with confidence</h2>
           <p>
-            Make large-scale changes safely with AI assistance that understands
-            dependencies and structure.
+            Make large-scale changes safely with AI assistance that
+            understands structure and intent.
           </p>
         </div>
 
@@ -91,12 +95,12 @@
         </div>
       </section>
 
-      <section class="feature">
+      <section class="feature reverse">
         <div class="feature-text">
           <h2>Stay in flow while coding</h2>
           <p>
-            Cursor integrates directly into your workflow without breaking
-            focus or slowing you down.
+            Cursor integrates directly into your workflow without
+            breaking focus or slowing you down.
           </p>
         </div>
 
@@ -107,24 +111,24 @@
 
     </section>
 
-    <!-- ================= FEATURE CARDS ================= -->
-    <section class="feature-cards container">
-      <h2 class="section-title">Why developers choose Cursor</h2>
+    <!-- ================= PRODUCT HIGHLIGHTS ================= -->
+    <section class="product-highlights container">
+      <h2 class="section-title">Built for real-world development</h2>
 
-      <div class="cards">
-        <div class="card">
+      <div class="highlight-grid">
+        <div class="highlight">
           <h3>Context-aware AI</h3>
-          <p>Understands your entire codebase, not just a single file.</p>
+          <p>Understands your entire codebase, not just one file.</p>
         </div>
 
-        <div class="card">
-          <h3>Fast and responsive</h3>
-          <p>Designed to keep you productive without lag or distractions.</p>
+        <div class="highlight">
+          <h3>Safe refactoring</h3>
+          <p>Make confident changes without unexpected breakage.</p>
         </div>
 
-        <div class="card">
-          <h3>Built for real projects</h3>
-          <p>Handles large, production-level repositories with ease.</p>
+        <div class="highlight">
+          <h3>Fast onboarding</h3>
+          <p>Understand unfamiliar codebases in minutes, not days.</p>
         </div>
       </div>
     </section>
@@ -156,31 +160,6 @@
       </div>
     </section>
 
-    <!-- ================= USE CASES ================= -->
-    <section class="use-cases container">
-      <h2 class="section-title">Built for how you work</h2>
-
-      <div class="use-case-cards">
-        <article class="use-case">
-          <img src="images/feature1.png" alt="Debugging use case" />
-          <h3>Debug faster</h3>
-          <p>Trace issues across files and understand bugs quickly.</p>
-        </article>
-
-        <article class="use-case">
-          <img src="images/feature2.png" alt="Refactoring use case" />
-          <h3>Refactor safely</h3>
-          <p>Make confident changes without unexpected breakage.</p>
-        </article>
-
-        <article class="use-case">
-          <img src="images/feature3.png" alt="Learning codebase use case" />
-          <h3>Onboard quickly</h3>
-          <p>Understand unfamiliar codebases in minutes, not days.</p>
-        </article>
-      </div>
-    </section>
-
     <!-- ================= CHANGELOG ================= -->
     <section class="changelog container">
       <h2 class="section-title">Latest updates</h2>
@@ -206,8 +185,8 @@
       <div class="team-content">
         <h2>Built by developers, for developers</h2>
         <p>
-          Cursor is built by a small team focused on improving developer
-          productivity without sacrificing control.
+          Cursor is built by a small team focused on improving
+          developer productivity without sacrificing control.
         </p>
         <a href="#" class="secondary-cta">Learn more about the team</a>
       </div>
@@ -220,7 +199,8 @@
     <!-- ================= FINAL CTA ================= -->
     <section class="final-cta">
       <div class="container">
-        <h2>Start building faster today</h2>
+        <h2>Start using Cursor today</h2>
+        <p>Download the editor and experience AI-powered development.</p>
         <a href="#" class="primary-cta">Download Cursor</a>
       </div>
     </section>
