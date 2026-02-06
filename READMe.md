@@ -59,3 +59,13 @@ Exact font matching was not required for this assignment.
 - All images follow a consistent dark-theme visual style
 
 Folder structure used:
+images/
+├── hero.png
+├── feature1.png
+├── feature2.png
+├── feature3.png
+├── team.png
+├── logo1.png
+├── logo2.png
+├── logo3.png
+└── logo4.svg
