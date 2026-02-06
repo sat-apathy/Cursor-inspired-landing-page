@@ -69,3 +69,7 @@ images/
 ├── logo2.png
 ├── logo3.png
 └── logo4.svg
+
+## What's Next
+- Cleaner HTML with comments
+- Better CSS
