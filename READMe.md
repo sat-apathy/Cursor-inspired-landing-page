@@ -1,5 +1,8 @@
 # Cursor-Inspired Landing Page
 
+Live link:
+https://sat-apathy.github.io/Cursor-inspired-landing-page/
+
 This project is a **desktop-first landing page** inspired by the official Cursor website.  
 It was built as part of the **Web Dev Cohort 2026** assignment using **only HTML and CSS**.
 
