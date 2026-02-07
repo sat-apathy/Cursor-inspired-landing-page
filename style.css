@@ -84,7 +84,17 @@ img {
 
 .hero-screenshot {
   padding: 64px 0 120px;
+  display: flex;
+  justify-content: center;
 }
+
+.hero-screenshot img {
+  width: 90vw;
+  max-width: 1400px;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
 
 /* TRUSTED */
 
@@ -94,26 +104,37 @@ img {
 }
 
 .trusted p {
-  color: #9a9a9a;
-  margin-bottom: 40px;
+  color: #b5b5b5;
+  margin-bottom: 48px;
 }
 
 .trusted-logos {
   display: flex;
   justify-content: center;
-  gap: 32px;
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-.logo-item {
-  height: 36px;
+
+.logo-card {
+  width: 160px;
+  height: 72px;
+  background: #121212;
+  border-radius: 12px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.04),
+    0 8px 24px rgba(0, 0, 0, 0.4);
 }
 
-.logo-item img {
-  max-height: 100%;
-  max-width: 120px;
-  opacity: 0.7;
+.logo-card img {
+  max-height: 28px;
+  max-width: 100px;
+  opacity: 0.9;
+  filter: grayscale(100%);
 }
 
 /* FEATURE STORIES */
